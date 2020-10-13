@@ -25,7 +25,7 @@ python main_stage2.py --train-subdir trainset_path  --test-subdir testset_path  
 
 Evaluation:
 ---------------------------------
->To evaluate my model on CIFAR100, run:
+>To evaluate the model on CIFAR100, run:
 ```
 python main_stage2.py --arch 'cifar_shakeshake26'  --evaluate pretrained_model_path
 ```
