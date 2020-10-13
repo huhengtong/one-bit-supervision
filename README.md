@@ -1,7 +1,7 @@
 # one-bit-supervision
 The source code for the NeurIPS 2020 paper "One-bit Supervision for Image Classification"
 
-![Image Text](https://github.com/huhengtong/one-bit-supervision/blob/master/framework.png)  
+![image](https://github.com/huhengtong/one-bit-supervision/blob/master/framework.png)  
 
 Requirements:
   Python 3; Pytorch 1.0.0
