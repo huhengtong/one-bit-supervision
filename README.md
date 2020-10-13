@@ -37,8 +37,8 @@ Datasets:
 Results:
 ----------------------------------
 
-｜ ｜Top 1 Accuracy｜
-｜：------｜：------：｜
-｜CIFAR100｜ 0.7376｜
-｜Mini-Imagenet｜  0.4554｜
-｜Imagenet ｜      0.6040｜
+|Dataset|Top 1 Accuracy|
+|:------|:------:|
+|CIFAR100|0.7376| 
+|Mini-Imagenet|0.4554| 
+|Imagenet|0.6040|
