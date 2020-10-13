@@ -1,5 +1,5 @@
 # one-bit-supervision
-The source code for the NeurIPS 2020 paper "One-bit Supervision for Image Classification"
+The source code for the NeurIPS 2020 paper "`One-bit Supervision for Image Classification`"
 
 ![Image Text](https://github.com/huhengtong/one-bit-supervision/raw/main/framework.png)  
 
