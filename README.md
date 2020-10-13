@@ -9,7 +9,7 @@ Requirements:
   
 Training:
 -----------------------------------
->To train the models on CIFAR100, run these commands:  
+To train the models on CIFAR100, run these commands:  
 For stage 0: 
 ```
 python main_stage0.py --train-subdir trainset_path  --test-subdir testset_path  --arch 'cifar_shakeshake26' --labeled-batch-size 50  -b 512 --epochs 180  --lr 0.2  --lr-rampdown-epochs 210 --nesterov 'true'  --ema-decay 0.97  --dataset cifar100  --consistency 1000  --consistency-rampup 5  --logit-distance-cost 0.01  
@@ -36,7 +36,9 @@ Datasets:
   
 Results:
 ----------------------------------
-#############  Top 1 Accuracy
-CIFAR100       0.7376
-Mini-Imagenet  0.4554
-Imagenet       0.6040
+
+｜ ｜Top 1 Accuracy｜
+｜：------｜：------：｜
+｜CIFAR100｜ 0.7376｜
+｜Mini-Imagenet｜  0.4554｜
+｜Imagenet ｜      0.6040｜
