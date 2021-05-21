@@ -38,6 +38,7 @@ def modify_dataset(dataset):
 
 
 def pred_dataset(unlabeled_idxs, dataset, model):
+    model.eval()
     sampler = SubsetRandomSampler(unlabeled_idxs)
     batch_sampler = BatchSampler(sampler, 256, drop_last=False)
     pred_loader = torch.utils.data.DataLoader(dataset,
